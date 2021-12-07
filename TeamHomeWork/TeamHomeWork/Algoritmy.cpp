@@ -7,7 +7,24 @@ int& algoritmy::AlgoritmEvklida(int& A, int& B)
 
 int& algoritmy::BinarniyAlgoritm(int& A, int& B)
 {
-	// TODO: вставьте здеcь свой алгоритм
+	int k = 1;
+	while ((A != 0) && (B != 0))
+	{
+		while ((A % 2 == 0) && (B % 2 == 0))
+		{
+			A /= 2;
+			B /= 2;
+			k *= 2;
+		}
+
+		while (A % 2 == 0) A /= 2;
+		while (B % 2 == 0) B /= 2;
+
+		if (A >= B) A -= B;
+		else B -= A;
+	}
+	int NOD = B * k;
+	return NOD;
 }
 
 int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
