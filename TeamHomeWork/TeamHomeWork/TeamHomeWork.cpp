@@ -42,7 +42,7 @@ cin >> A;
 cout << "Enter number B: ";
 int B;
 cin >> B;
- 
+cout << BinarniyAlgoritm(A, B);
 
 
 }
