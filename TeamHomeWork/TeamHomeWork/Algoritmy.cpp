@@ -1,8 +1,8 @@
 #include "Algoritmy.h"
 
+//Россев Миша
 int& algoritmy::AlgoritmEvklida(int& A, int& B)
 {
-	// TODO: âñòàâüòå çäåcü ñâîé àëãîðèòì
 	while (A!=0 && B!=0)
 	{
 		if(A > B)
@@ -13,6 +13,7 @@ int& algoritmy::AlgoritmEvklida(int& A, int& B)
 	return (A+B);
 }
 
+//Федорина Ирина
 int& algoritmy::BinarniyAlgoritm(int& A, int& B)
 {
 	int k = 1;
@@ -35,11 +36,12 @@ int& algoritmy::BinarniyAlgoritm(int& A, int& B)
 	return NOD;
 }
 
+//Ивлев Лев
 int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 {
-	/* a è b - ÷èñëà, äëÿ êîòîðûõ ìû èùåì ÍÎÄ, ïåðåäàåì ïî çíà÷åíèþ.
-	x è y - ïåðåìåííûå, â êîòîðûå çàïèñûâàþòñÿ íàéäåííûå àëãîðèòìîì êîýôôèöèåíòû ðàçëîæåíèÿ
-	(ïóñòûå ïåðåìåííûå ïåðåäàþòñÿ ïî ññûëêå */
+	/* a и b - числа, для которых мы ищем НОД, передаем по значению.
+	х и у - переменные, в которые записываются найденные алгоритмом коэффициенты разложения
+	(пустые переменные передаются передаются по ссылке */
 
 	if (a == 0) {
 		x = 0; y = 1;
@@ -52,8 +54,9 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 	return d;
 }
 
+//Россев Миша
 int& algoritmy::AlgoritmLemmera(int& A, int& B)
 {
-	// TODO: âñòàâüòå çäåñü ñâîé àëãîðèòì
+	// TODO: Вписать свой алгоритм
 }
 
