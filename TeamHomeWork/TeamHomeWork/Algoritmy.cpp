@@ -56,8 +56,8 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 }
 
 //Россев Миша
-int& algoritmy::AlgoritmLemmera(int& A, int& B)
-{
-	// TODO: Вписать свой алгоритм
-}
+//int& algoritmy::AlgoritmLemmera(int& A, int& B)
+//{
+//	// TODO: Вписать свой алгоритм
+//}
 

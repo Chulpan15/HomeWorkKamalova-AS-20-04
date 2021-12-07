@@ -1,4 +1,5 @@
 ﻿#include <iostream>
+#include <Windows.h>
 #include <chrono>
 #include "Algoritmy.h"
 
@@ -33,17 +34,30 @@ public:
 };
 
 
-
 int main()
 {
-cout << "Enter number A: ";
-int A;
-cin >> A;
-cout << "Enter number B: ";
-int B;
-cin >> B;
-cout << BinarniyAlgoritm(A, B);
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	Timer t;
 
+    cout << "Enter number A: ";
+    int A;
+    cin >> A;
+    cout << "Enter number B: ";
+    int B;
+    cin >> B;
+
+    double time1 = t.elapsed();
+    cout << "Алгоритм Евклида, НОД: " << AlgoritmEvklida(A, B) << endl;
+	cout << "Затраченное время: " << time1 << endl;
+	double time2 = t.elapsed();
+	cout << "Бинарный алгоритм, НОД: " << BinarniyAlgoritm(A, B) << endl;
+	cout << "Затраченное время: " << time2 - time1 << endl;
+	double time3 = t.elapsed();
+	int x;
+	int y;
+	cout << "Расширенный алгоритм Евклида, НОД: " << RashirenniyAlgoritmEvklida(A,B,x,y) << endl;
+	cout << "Затраченное время: " << time3 - time2 << endl;
 
 }
 

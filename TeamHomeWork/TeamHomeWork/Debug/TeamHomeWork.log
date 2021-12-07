@@ -1,6 +1,1 @@
-﻿  Algoritmy.cpp
-C:\Users\fedor\Desktop\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(14): warning C4172: returning address of local variable or temporary: gcd
-C:\Users\fedor\Desktop\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(44): warning C4172: returning address of local variable or temporary: NOD
-C:\Users\fedor\Desktop\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(55): warning C4172: returning address of local variable or temporary: b
-C:\Users\fedor\Desktop\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(61): warning C4172: returning address of local variable or temporary: d
-  TeamHomeWork.vcxproj -> C:\Users\fedor\Desktop\HomeWorkKamalova-AS-20-04\TeamHomeWork\Debug\TeamHomeWork.exe
+﻿  TeamHomeWork.vcxproj -> C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\Debug\TeamHomeWork.exe
