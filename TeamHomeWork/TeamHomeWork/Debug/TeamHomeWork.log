@@ -1,2 +1,8 @@
-﻿  TeamHomeWork.cpp
+﻿  Algoritmy.cpp
+  TeamHomeWork.cpp
+  Создание кода...
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(45): warning C4172: возвращение адреса локальной или временной переменной : NOD
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(14): warning C4172: возвращение адреса локальной или временной переменной : gcd
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(57): warning C4172: возвращение адреса локальной или временной переменной : b
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(63): warning C4172: возвращение адреса локальной или временной переменной : d
   TeamHomeWork.vcxproj -> C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\Debug\TeamHomeWork.exe
