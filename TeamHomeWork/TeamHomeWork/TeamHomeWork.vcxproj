@@ -139,7 +139,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Algoritmy.cpp" />
     <ClCompile Include="TeamHomeWork.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Algoritmy.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
