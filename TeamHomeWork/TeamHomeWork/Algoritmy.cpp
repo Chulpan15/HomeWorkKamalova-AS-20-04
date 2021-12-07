@@ -19,8 +19,10 @@ int& algoritmy::BinarniyAlgoritm(int& A, int& B)
 {
 	int NOD;
 	int k = 1;
-	if ((A == 0) || (B == 0))
-		NOD = 0;
+	if (A == 0)
+		NOD = B;
+	else if (B == 0)
+		NOD = A;
 	else
 	{
 		while ((A != 0) && (B != 0))
