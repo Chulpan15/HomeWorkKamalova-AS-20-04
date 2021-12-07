@@ -17,23 +17,31 @@ int& algoritmy::AlgoritmEvklida(int& A, int& B)
 //Федорина Ирина
 int& algoritmy::BinarniyAlgoritm(int& A, int& B)
 {
+	int NOD;
 	int k = 1;
-	while ((A != 0) && (B != 0))
+	if (A == 0)
+		NOD = B;
+	else if (B == 0)
+		NOD = A;
+	else
 	{
-		while ((A % 2 == 0) && (B % 2 == 0))
+		while ((A != 0) && (B != 0))
 		{
-			A /= 2;
-			B /= 2;
-			k *= 2;
+			while ((A % 2 == 0) && (B % 2 == 0))
+			{
+				A /= 2;
+				B /= 2;
+				k *= 2;
+			}
+
+			while (A % 2 == 0) A /= 2;
+			while (B % 2 == 0) B /= 2;
+
+			if (A >= B) A -= B;
+			else B -= A;
 		}
-
-		while (A % 2 == 0) A /= 2;
-		while (B % 2 == 0) B /= 2;
-
-		if (A >= B) A -= B;
-		else B -= A;
+		NOD = B * k;
 	}
-	int NOD = B * k;
 	return NOD;
 }
 
