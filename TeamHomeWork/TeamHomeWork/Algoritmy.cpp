@@ -63,9 +63,62 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 	return d;
 }
 
-//Россев Миша
-//int& algoritmy::AlgoritmLemmera(int& A, int& B)
-//{
-//	// TODO: Вписать свой алгоритм
-//}
+/*Россев Миша
+int& algoritmy::AlgoritmLemmera(int& A, int& B)
+{
+	// TODO: Вписать свой алгоритм
+		string x_s, y_s, b_s,x1_s,y1_s;
+		cin >> x_s >> y_s >> b_s;
+		long long int x,x_l,y,y_l,b, x1, y1, q, q1, t, T, U;
+		int A, B, C, D, m1, m2;
+		x = stoll(x_s), y = stoll(y_s);
+		while (y > b)
+		{
+            x_l=x,y_l=y;
+            while(x_l>pow(10,b_s.length()))
+            {
+                x_l=x_l/pow(10,b_s.length());
+                x1=x_l;
+            }
+            while(y_l>pow(10,b_s.length()))
+            {
+                y_l=y_l/pow(10,b_s.length());
+                y1=y_l;
+            }
+			A = 1, B = 0, C = 0, D = 1;
+			while (y1 + C != 0 && x1 + D != 0)
+			{
+				q = (x1 + A) / (y1 + C);
+				q1 = (x1 + B) / (y1 + D);
+				if (q == q1)
+				{
+					t = A - q * C;
+					A = C;
+					C = t;
+					t = B - q * D;
+					B = D;
+					D = t;
+					t = x1 - q * y1;
+					x1 = y1;
+					y1 = t;
+				}
+				if (q != q1) break;
+			}
+			if (B == 0)
+			{
+				T = x % y;
+				x = y;
+				y = T;
+			}
+			else
+			{
+				T = A * x + B * y;
+				U = C * x + D * y;
+				x = T;
+				y = U;
+			}
+		}
+		cout<<AlgoritmEvklida(x, y);
+		return 0;
+}*/
 
