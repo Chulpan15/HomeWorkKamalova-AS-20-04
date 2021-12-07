@@ -1,8 +1,7 @@
-﻿
-#include <iostream>
+﻿#include <iostream>
+#include <chrono>
+#include "Algoritmy.h"
 
-int main()
-{
-    std::cout << "Hello World!\n";
-}
+using namespace std;
+using namespace algoritmy;
 
