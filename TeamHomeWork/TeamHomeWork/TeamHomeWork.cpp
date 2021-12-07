@@ -40,10 +40,10 @@ int main()
 	SetConsoleOutputCP(1251);
 	Timer t;
 
-    cout << "Enter number A: ";
+    cout << "Введите число A: ";
     int A;
     cin >> A;
-    cout << "Enter number B: ";
+    cout << "Введите число B: ";
     int B;
     cin >> B;
 
