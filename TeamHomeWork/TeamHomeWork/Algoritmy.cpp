@@ -10,7 +10,8 @@ int& algoritmy::AlgoritmEvklida(int& A, int& B)
 		else
 			B %= A;
 	}
-	return (A+B);
+	int gcd = A + B;
+	return gcd;
 }
 
 //Федорина Ирина
