@@ -1,8 +1,7 @@
 ﻿  Algoritmy.cpp
   TeamHomeWork.cpp
-  Выполнение Code Analysis для C/C++...
   Создание кода...
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(16): error C4716: algoritmy::RashirenniyAlgoritmEvklida: должна возвращать значение
 C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(6): error C4716: algoritmy::AlgoritmEvklida: должна возвращать значение
-C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(16): error C4716: algoritmy::BinarniyAlgoritm: должна возвращать значение
-C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(11): error C4716: algoritmy::RashirenniyAlgoritmEvklida: должна возвращать значение
 C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(21): error C4716: algoritmy::AlgoritmLemmera: должна возвращать значение
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(11): error C4716: algoritmy::BinarniyAlgoritm: должна возвращать значение

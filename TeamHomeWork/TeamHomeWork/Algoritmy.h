@@ -5,8 +5,8 @@ using namespace std;
 
 namespace algoritmy
 {
-	int& AlgoritmEvklida(int& nod);
-	int& BinarniyAlgoritm(int& nod);
-	int& RashirenniyAlgoritmEvklida(int& nod);
-	int& AlgoritmLemmera(int& nod);
+	int& AlgoritmEvklida(int& x, int& y);
+	int& BinarniyAlgoritm(int& x, int& y);
+	int& RashirenniyAlgoritmEvklida(int& x, int& y);
+	int& AlgoritmLemmera(int& x, int& y);
 }
