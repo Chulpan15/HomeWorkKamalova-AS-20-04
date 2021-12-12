@@ -120,6 +120,6 @@ int& algoritmy::AlgoritmLemmera(string& pA, string& pB, int& base)
 		}
 		intX=xn, intY=yn;
 		AlgoritmEvklida(intX, intY);
-		//return 0;
+		return 0;
 }
 

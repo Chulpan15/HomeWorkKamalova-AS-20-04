@@ -46,6 +46,9 @@ int main()
     cout << "Введите число B: ";
     int B;
     cin >> B;
+	int b;
+	cout << "Введите число b: ";
+	cin >> b;
 
     double time1 = t.elapsed();
     cout << "Алгоритм Евклида, НОД: " << AlgoritmEvklida(A, B) << endl;
@@ -59,7 +62,7 @@ int main()
 	cout << "Расширенный алгоритм Евклида, НОД: " << RashirenniyAlgoritmEvklida(A,B,x,y) << endl;
 	cout << "Затраченное время: " << time3 - time2 << endl;
 	double time4 = t.elapsed();
-	cout << "Алгоритм Леммера, НОД: " << AlgoritmLemmera(A, B) << endl;
+	cout << "Алгоритм Леммера, НОД: " << AlgoritmLemmera(A, B,b) << endl;
 	cout << "Затраченное время: " << time4 - time3 << endl;
 
 }
