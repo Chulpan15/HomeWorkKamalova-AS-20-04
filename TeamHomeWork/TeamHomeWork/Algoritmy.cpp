@@ -121,6 +121,6 @@ int& algoritmy::AlgoritmLemmera(int& A, int& B)
 		}
 		intX=xn, intY=yn;
 		AlgoritmEvklida(intX, intY);
-		return 0;
+		//return 0;
 }
 
