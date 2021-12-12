@@ -1,2 +1,11 @@
-﻿  TeamHomeWork.cpp
-  TeamHomeWork.vcxproj -> C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\Debug\TeamHomeWork.exe
+﻿  Algoritmy.cpp
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(72,8): error C2082: переопределение формального параметра "A"
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(72,11): error C2082: переопределение формального параметра "B"
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(80,24): warning C4244: =: преобразование "double" в "__int64", возможна потеря данных
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(85,24): warning C4244: =: преобразование "double" в "__int64", возможна потеря данных
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(97,10): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(100,10): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(121,8): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+C:\Users\Huawei\OneDrive\Документы\GitHub\HomeWorkKamalova-AS-20-04\TeamHomeWork\TeamHomeWork\Algoritmy.cpp(121,17): warning C4244: =: преобразование "__int64" в "int", возможна потеря данных
+  TeamHomeWork.cpp
+  Создание кода...

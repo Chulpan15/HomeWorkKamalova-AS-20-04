@@ -66,7 +66,6 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 //Россев Миша
 int& algoritmy::AlgoritmLemmera(int& A, int& B)
 {
-	// TODO: Вписать свой алгоритм
 		string x_s, y_s, b_s;
 		cin >> x_s >> y_s >> b_s;
 		long long int xn,x_l,yn,y_l,b, x1, y1, q, q1, t, T, U;
