@@ -64,25 +64,25 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 }
 
 //Россев Миша
-int& algoritmy::AlgoritmLemmera(string& pA, string& pB, int& base)
+int& algoritmy::AlgoritmLemmera(int& pA, int& pB)
 {
-		string x_s, y_s, b_s;
+		//string x_s, y_s, b_s;
 		//cin >> x_s >> y_s >> b_s;
-		long long int xn,x_l,yn,y_l,b, x1, y1, q, q1, t, T, U;
+		int xn,x_l,yn,y_l,b=103, x1, y1, q, q1, t, T, U;
 		int A, B, C, D, intX, intY;
-		xn = stoll(x_s), yn = stoll(y_s), b = stoll(b_s);
+		//xn = stoll(x_s), yn = stoll(y_s), b = stoll(b_s);
 		if(xn<=yn) swap(xn,yn);
 		while (yn > b)
 		{
             x_l=xn,y_l=yn;
-            while(x_l>pow(10,b_s.length()))
+            while(x_l>pow(10,3))
             {
-                x_l=x_l/pow(10,b_s.length());
+                x_l=x_l/pow(10,3);
                 x1=x_l;
             }
-            while(y_l>pow(10,b_s.length()))
+            while(y_l>pow(10,3))
             {
-                y_l=y_l/pow(10,b_s.length());
+                y_l=y_l/pow(10,3);
                 y1=y_l;
             }
 			A = 1, B = 0, C = 0, D = 1;
