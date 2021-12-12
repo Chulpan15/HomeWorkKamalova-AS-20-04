@@ -64,10 +64,10 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 }
 
 //Россев Миша
-int& algoritmy::AlgoritmLemmera(int& A, int& B)
+int& algoritmy::AlgoritmLemmera(string& pA, string& pB, int& base)
 {
 		string x_s, y_s, b_s;
-		cin >> x_s >> y_s >> b_s;
+		//cin >> x_s >> y_s >> b_s;
 		long long int xn,x_l,yn,y_l,b, x1, y1, q, q1, t, T, U;
 		int A, B, C, D, intX, intY;
 		xn = stoll(x_s), yn = stoll(y_s), b = stoll(b_s);
