@@ -63,7 +63,7 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 	return d;
 }
 
-/*Россев Миша
+//Россев Миша
 int& algoritmy::AlgoritmLemmera(int& A, int& B)
 {
 	// TODO: Вписать свой алгоритм
@@ -118,7 +118,7 @@ int& algoritmy::AlgoritmLemmera(int& A, int& B)
 				y = U;
 			}
 		}
-		cout<<AlgoritmEvklida(x, y);
+		AlgoritmEvklida(x, y);
 		return 0;
-}*/
+}
 
