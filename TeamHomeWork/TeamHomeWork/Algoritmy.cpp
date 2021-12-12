@@ -64,17 +64,14 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 }
 
 //Россев Миша
-int& algoritmy::AlgoritmLemmera(int& pA, int& pB)
+int& algoritmy::AlgoritmLemmera(int& A, int& B)
 {
-		//string x_s, y_s, b_s;
-		//cin >> x_s >> y_s >> b_s;
-		int xn,x_l,yn,y_l,b=103, x1, y1, q, q1, t, T, U;
-		int A, B, C, D, intX, intY;
-		//xn = stoll(x_s), yn = stoll(y_s), b = stoll(b_s);
-		if(xn<=yn) swap(xn,yn);
-		while (yn > b)
+		int x_l,y_l,b=103, x1, y1, q, q1, t, T, U;
+		int ko_A, ko_B, C, D, intX, intY;
+		if(A<=B) swap(A,B);
+		while (B > b)
 		{
-            x_l=xn,y_l=yn;
+            x_l=A,y_l=B;
             while(x_l>pow(10,3))
             {
                 x_l=x_l/pow(10,3);
@@ -85,18 +82,18 @@ int& algoritmy::AlgoritmLemmera(int& pA, int& pB)
                 y_l=y_l/pow(10,3);
                 y1=y_l;
             }
-			A = 1, B = 0, C = 0, D = 1;
+			ko_A = 1, ko_B = 0, C = 0, D = 1;
 			while (y1 + C != 0 && x1 + D != 0)
 			{
-				q = (x1 + A) / (y1 + C);
-				q1 = (x1 + B) / (y1 + D);
+				q = (x1 + ko_A) / (y1 + C);
+				q1 = (x1 + ko_B) / (y1 + D);
 				if (q == q1)
 				{
-					t = A - q * C;
-					A = C;
+					t = ko_A - q * C;
+					ko_A = C;
 					C = t;
-					t = B - q * D;
-					B = D;
+					t = ko_B - q * D;
+					ko_B = D;
 					D = t;
 					t = x1 - q * y1;
 					x1 = y1;
@@ -104,21 +101,22 @@ int& algoritmy::AlgoritmLemmera(int& pA, int& pB)
 				}
 				if (q != q1) break;
 			}
-			if (B == 0)
+			if (ko_B == 0)
 			{
-				T = xn % yn;
-				xn = yn;
-				yn = T;
+				T = A % B;
+				A = B;
+				B = T;
 			}
 			else
 			{
-				T = A * xn + B * yn;
-				U = C * xn + D * yn;
-				xn = T;
-				yn = U;
+				T = ko_A * A + ko_B * B;
+				U = C * A + D * B;
+				A = T;
+				B = U;
 			}
 		}
-		intX=xn, intY=yn;
-		AlgoritmEvklida(intX, intY);
+		intX=A, intY=B;
+		int gcd = AlgoritmEvklida(intX, intY);
+		return gcd;
 }
 
