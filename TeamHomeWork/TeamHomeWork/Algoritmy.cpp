@@ -70,7 +70,7 @@ int& algoritmy::AlgoritmLemmera(int& A, int& B)
 		string x_s, y_s, b_s;
 		cin >> x_s >> y_s >> b_s;
 		long long int xn,x_l,yn,y_l,b, x1, y1, q, q1, t, T, U;
-		int A, B, C, D;
+		int A, B, C, D, intX, intY;
 		xn = stoll(x_s), yn = stoll(y_s), b = stoll(b_s);
 		if(xn<=yn) swap(xn,yn);
 		while (yn > b)
@@ -119,7 +119,8 @@ int& algoritmy::AlgoritmLemmera(int& A, int& B)
 				yn = U;
 			}
 		}
-		AlgoritmEvklida(xn, yn);
+		intX=xn, intY=yn;
+		AlgoritmEvklida(intX, intY);
 		return 0;
 }
 
