@@ -67,14 +67,15 @@ int& algoritmy::RashirenniyAlgoritmEvklida(int a, int b, int& x, int& y)
 int& algoritmy::AlgoritmLemmera(int& A, int& B)
 {
 	// TODO: Вписать свой алгоритм
-		string x_s, y_s, b_s,x1_s,y1_s;
+		string x_s, y_s, b_s;
 		cin >> x_s >> y_s >> b_s;
-		long long int x,x_l,y,y_l,b, x1, y1, q, q1, t, T, U;
-		int A, B, C, D, m1, m2;
-		x = stoll(x_s), y = stoll(y_s);
-		while (y > b)
+		long long int xn,x_l,yn,y_l,b, x1, y1, q, q1, t, T, U;
+		int A, B, C, D;
+		xn = stoll(x_s), yn = stoll(y_s), b = stoll(b_s);
+		if(xn<=yn) swap(xn,yn);
+		while (yn > b)
 		{
-            x_l=x,y_l=y;
+            x_l=xn,y_l=yn;
             while(x_l>pow(10,b_s.length()))
             {
                 x_l=x_l/pow(10,b_s.length());
@@ -106,19 +107,19 @@ int& algoritmy::AlgoritmLemmera(int& A, int& B)
 			}
 			if (B == 0)
 			{
-				T = x % y;
-				x = y;
-				y = T;
+				T = xn % yn;
+				xn = yn;
+				yn = T;
 			}
 			else
 			{
-				T = A * x + B * y;
-				U = C * x + D * y;
-				x = T;
-				y = U;
+				T = A * xn + B * yn;
+				U = C * xn + D * yn;
+				xn = T;
+				yn = U;
 			}
 		}
-		AlgoritmEvklida(x, y);
+		AlgoritmEvklida(xn, yn);
 		return 0;
 }
 
